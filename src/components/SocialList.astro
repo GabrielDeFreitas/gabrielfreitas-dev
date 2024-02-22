@@ -13,24 +13,19 @@ const socialLinks: {
 }[] = [
 	{
 		friendlyName: "Github",
-		link: "https://github.com/chrismwilliams/astro-cactus",
+		link: "https://github.com/GabrielDeFreitas",
 		name: "mdi:github",
 	},
 	{
-		friendlyName: "Mastodon",
-		link: "#",
-		name: "mdi:mastodon",
-	},
-	{
 		friendlyName: "LinkedIn",
-		link: "#",
+		link: "https://www.linkedin.com/in/gabrielfreitas21/",
 		name: "mdi:linkedin",
 	},
 	{
-		friendlyName: "email",
+		friendlyName: "Twiiter",
 		isWebmention: true,
-		link: "mailto:astro-cactus@chriswilliams.dev",
-		name: "mdi:email",
+		link: "https://twitter.com/refri_comfrango",
+		name: "mdi:twitter",
 	},
 ];
 ---
@@ -46,6 +41,8 @@ const socialLinks: {
 						href={link}
 						rel={`noopener noreferrer ${isWebmention ? "me authn" : ""}`}
 						target="_blank"
+						title={friendlyName}
+						aria-label={friendlyName}
 					>
 						<Icon aria-hidden="true" class="h-6 w-6" focusable="false" name={name} />
 						<span class="sr-only">{friendlyName}</span>
