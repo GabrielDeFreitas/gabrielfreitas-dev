@@ -11,10 +11,7 @@ const year = new Date().getFullYear();
 		&copy; {siteConfig.author}
 		{year}.<span class="inline-block">&nbsp;🚀&nbsp;Astro</span>
 	</div>
-	<nav
-		aria-label="More on this site"
-		class="flex gap-x-2 sm:gap-x-0 sm:divide-x sm:divide-gray-500"
-	>
+	<nav aria-label="Mais neste site" class="flex gap-x-2 sm:gap-x-0 sm:divide-x sm:divide-gray-500">
 		{
 			menuLinks.map((link) => (
 				<a class="px-4 py-2 sm:py-0 sm:hover:text-textColor sm:hover:underline" href={link.path}>

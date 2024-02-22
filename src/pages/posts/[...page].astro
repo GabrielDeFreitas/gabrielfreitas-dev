@@ -22,20 +22,20 @@ interface Props {
 const { page, uniqueTags } = Astro.props;
 
 const meta = {
-	description: "Ready my collection of posts and the things that interest me",
+	description: "Confira as postagens e os temas que me interessam",
 	title: "Posts",
 };
 
 const paginationProps = {
 	...(page.url.prev && {
 		prevUrl: {
-			text: `← Previous Posts`,
+			text: `← Anteriores`,
 			url: page.url.prev,
 		},
 	}),
 	...(page.url.next && {
 		nextUrl: {
-			text: `Next Posts →`,
+			text: `Próximos  →`,
 			url: page.url.next,
 		},
 	}),
@@ -45,7 +45,7 @@ const paginationProps = {
 <PageLayout meta={meta}>
 	<h1 class="title mb-6">Posts</h1>
 	<div class="grid gap-y-16 sm:grid-cols-[3fr_1fr] sm:gap-x-8">
-		<section aria-label="Blog post list">
+		<section aria-label="Lista de posts">
 			<ul class="space-y-8 text-start">
 				{
 					page.data.map((p) => (
@@ -83,7 +83,7 @@ const paginationProps = {
 						{uniqueTags.map((tag) => (
 							<li>
 								<a
-									aria-label={`View all posts with the tag: ${tag}`}
+									aria-label={`Visualizar todas as postagens com a tag: ${tag}`}
 									class="flex items-center justify-center rounded-lg bg-accent p-1"
 									href={`/tags/${tag}/`}
 								>
@@ -93,8 +93,13 @@ const paginationProps = {
 						))}
 					</ul>
 					<span class="mt-4 block sm:text-end">
-						<a aria-label="View all blog categories" class="sm:hover:text-accent" href="/tags/">
-							View all →
+						<a
+							aria-label="Ver todas as categorias do blog"
+							title="Ver todas as categorias do blog"
+							class="sm:hover:text-accent"
+							href="/tags/"
+						>
+							Visualizar todos →
 						</a>
 					</span>
 				</aside>
