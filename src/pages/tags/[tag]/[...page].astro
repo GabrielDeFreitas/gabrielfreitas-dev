@@ -29,20 +29,20 @@ const { page } = Astro.props;
 const { tag } = Astro.params;
 
 const meta = {
-	description: `View all posts with the tag - ${tag}`,
+	description: `Ver todas as postagens com a tag - ${tag}`,
 	title: `Tag: ${tag}`,
 };
 
 const paginationProps = {
 	...(page.url.prev && {
 		prevUrl: {
-			text: `← Previous Tags`,
+			text: `← Tags Anteriores`,
 			url: page.url.prev,
 		},
 	}),
 	...(page.url.next && {
 		nextUrl: {
-			text: `Next Tags →`,
+			text: `Próximas Tags →`,
 			url: page.url.next,
 		},
 	}),
