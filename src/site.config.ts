@@ -8,7 +8,7 @@ export const siteConfig: SiteConfig = {
 	title: "Gabriel Freitas",
 	// Meta property used as the default description meta property
 	description:
-		"Me chamo Gabriel Freitas e sou desenvolvedo. Meu blog é dedicado a temas relacionados ao desenvolvimento web e jogos",
+		"Me chamo Gabriel Freitas e sou desenvolvedor. Meu blog é dedicado a temas relacionados ao desenvolvimento web e jogos",
 	// HTML lang property, found in src/layouts/Base.astro L:18
 	lang: "pt-BR",
 	// Meta property, found in src/components/BaseHead.astro L:42
