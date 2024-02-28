@@ -3,7 +3,7 @@ title: "Uma postagem de elementos Markdown"
 description: "Esta postagem é para testar e listar uma variedade de elementos Markdown diferentes."
 publishDate: "22 Feb 2023"
 updatedDate: 28 Jan 2024
-tags: ["test", "markdown"]
+tags: ["teste", "markdown"]
 ---
 
 ## H2 Heading

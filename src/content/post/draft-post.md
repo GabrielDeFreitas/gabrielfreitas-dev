@@ -1,9 +1,9 @@
 ---
-title: "A working draft title"
-description: "This post is for testing the draft post functionality"
+title: "Título do Rascunho Funcional"
+description: "Esta postagem é para testar a funcionalidade de rascunho."
 publishDate: "10 Sept 2023"
-tags: ["test"]
+tags: ["teste", "rascunho"]
 draft: true
 ---
 
-If this is working correctly, this post should only be accessible in a dev environment, as well as any tags that are unique to this post.
+Se isso estiver funcionando corretamente, esta postagem só deverá ser acessível em um ambiente de desenvolvimento, assim como quaisquer tags exclusivas para esta postagem.
