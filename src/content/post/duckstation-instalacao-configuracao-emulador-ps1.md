@@ -6,7 +6,6 @@ coverImage:
   src: "@/assets/duckstation-cover.png"
   alt: "Duckstation wallpaper"
 tags: ["retro", "playstation", "emulador"]
-draft: true
 ---
 
 ## Lorem Ipsum is simply dummy text

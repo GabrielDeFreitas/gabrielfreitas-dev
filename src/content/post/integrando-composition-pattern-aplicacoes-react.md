@@ -3,7 +3,6 @@ title: "Integrando Composition Pattern em aplicações React"
 description: "Crie interfaces flexíveis e reutilizáveis no React com Composition Pattern. Simplifique a construção usando pequenos componentes."
 publishDate: "27 February 2024"
 tags: ["react", "tailwind css", "design patterns"]
-draft: true
 ---
 
 ## Introdução do Composition Pattern no React
