@@ -1,5 +1,7 @@
 ---
+import { Image } from "astro:assets";
 import PageLayout from "@/layouts/Base.astro";
+import Avatar from "@/assets/avatar.png";
 import SocialList from "@/components/SocialList.astro";
 
 const meta = {
@@ -10,7 +12,16 @@ const meta = {
 
 <PageLayout meta={meta}>
 	<div class="space-y-6">
-		<h1 class="title">Sobre mim</h1>
+		<div class="flex items-center">
+			<Image
+				class="mr-4 h-14 w-14 rounded-full"
+				loading="lazy"
+				src={Avatar}
+				alt="Foto de perfil de Gabriel Freitas"
+				title="Gabriel Freitas - Avatar"
+			/>
+			<h1 class="title leading-none">Sobre mim</h1>
+		</div>
 		<p>
 			Meu nome é <strong>Gabriel de Freitas Campos Gonçalves</strong>. Nasci em São José/SC e sou um
 			desenvolvedor web graduado em Jogos Digitais, com uma trajetória que inclui experiência em
