@@ -72,7 +72,7 @@ O EditorConfig é uma ferramenta útil que nos permite definir e compartilhar co
 
 A principal vantagem é que não é necessário instalar plugins, já que muitos editores suportam nativamente o EditorConfig.
 
-Para incorporá-lo ao projeto, basta criar um arquivo chamado .editorconfig na raiz do projeto e definir as regras desejadas para a formatação do código, já tenho algumas regras prontas, mas para detalhes mais específicos, você pode acessar o site oficial deles:
+Para incorporá-lo ao projeto, basta criar um arquivo chamado .editorconfig na raiz do projeto e definir as regras desejadas para a formatação do código, já tenho algumas regras prontas, mas para detalhes mais específicos, você pode acessar o site oficial deles, [EditorConfig](https://editorconfig.org/)
 
 ```
 root = true
