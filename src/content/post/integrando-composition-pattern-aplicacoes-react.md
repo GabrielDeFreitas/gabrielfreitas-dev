@@ -356,3 +356,5 @@ Composition Pattern no React proporciona uma abordagem modular e eficiente para 
 Essa combinação oferece um controle preciso sobre a aparência de cada componente, tornando a personalização de estilos uma tarefa eficaz e simplificada em projetos React.
 
 Ah, e para quem quiser conferir mais detalhes, criei um repositório no GitHub com o código utilizado neste post. É só dar uma olhadinha clicando no link abaixo:
+
+[Reposítorio do Projeto](https://github.com/GabrielDeFreitas/composition-pattern-react)
