@@ -1,3 +1,7 @@
+# Personal Blog
+
+<img src="/public/homepage.PNG" alt="Exemplo imagem">
+
 ## Technologies
 
 [Astro](https://astro.build/): The web framework for content-driven websites
