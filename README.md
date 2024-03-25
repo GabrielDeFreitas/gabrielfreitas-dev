@@ -1,6 +1,6 @@
 # Personal Blog
 
-<img src="/public/homepage.PNG" alt="Exemplo imagem">
+<img src="/public/homepage.PNG" alt="Print Home Page">
 
 ## Technologies
 
