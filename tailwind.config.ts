@@ -98,6 +98,7 @@ export default {
 								},
 							},
 						},
+						maxWidth: "80ch",
 					},
 				},
 				sm: {
