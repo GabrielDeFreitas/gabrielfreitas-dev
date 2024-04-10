@@ -3,9 +3,10 @@ import type { CollectionEntry } from "astro:content";
 
 import BlogHero from "@/components/blog/Hero.astro";
 import TOC from "@/components/blog/TOC.astro";
-import WebMentions from "@/components/blog/webmentions/index.astro";
 
 import BaseLayout from "./Base.astro";
+import GitHubDiscussions from "@/components/GitHubDiscussions.astro";
+import IdentifiedProblem from "@/components/IdentifiedProblem.astro";
 
 interface Props {
 	post: CollectionEntry<"post">;
@@ -30,27 +31,9 @@ const { headings } = await post.render();
 				class="prose prose-sm prose-cactus mt-12 prose-headings:font-semibold prose-headings:text-accent-2 prose-headings:before:absolute prose-headings:before:-ms-4 prose-headings:before:text-accent prose-headings:before:content-['#'] prose-th:before:content-none"
 			>
 				<slot />
-				<WebMentions />
 			</div>
-			<div class="mt-[3.75rem] rounded-lg bg-quote/10 p-4 text-quote">
-				<h1 class="mb-4 text-xl font-semibold">
-					Identificou algum problema no texto? Conto com sua ajuda para corrigir!
-				</h1>
-				<p class="mb-3">
-					Este projeto é open source, então é só fazer as alterações no arquivo de texto,
-					<a
-						href="https://github.com/GabrielDeFreitas/gabrielfreitas-dev/tree/master/src/content/post"
-						target="_blank"
-						class="cactus-link"
-						aria-label="Repositório do projeto"
-						title="Repositório do projeto">diretamente no Github</a
-					>, e abrir um pull-request.
-				</p>
-				<p class="mb-3">
-					Contribuir com a comunidade de desenvolvimento web nunca foi tão fácil e eficiente.
-				</p>
-			</div>
-			<section class="giscus mx-auto mt-10 w-full"></section>
+			<IdentifiedProblem />
+			<GitHubDiscussions />
 		</article>
 	</div>
 	<button
@@ -92,20 +75,3 @@ const { headings } = await post.render();
 	const observer = new IntersectionObserver(callback);
 	observer.observe(targetHeader);
 </script>
-
-<script
-	src="https://giscus.app/client.js"
-	data-repo="GabrielDeFreitas/gabrielfreitas-dev"
-	data-repo-id="R_kgDOLWoQVg"
-	data-category="Blog Posts Comments"
-	data-category-id="DIC_kwDOLWoQVs4CdoX3"
-	data-mapping="pathname"
-	data-strict="0"
-	data-reactions-enabled="1"
-	data-emit-metadata="0"
-	data-input-position="bottom"
-	data-theme="dark"
-	data-lang="pt"
-	data-loading="lazy"
-	crossorigin="anonymous"
-	async></script>
