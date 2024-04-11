@@ -102,7 +102,6 @@ const markup = (title: string, pubDate: string) =>
 						</g>
 					</g>
 				</svg>
-				<p tw="ml-3 font-semibold">${siteConfig.title}</p>
 			</div>
 			<p>by ${siteConfig.author}</p>
 		</div>
