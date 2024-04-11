@@ -35,7 +35,7 @@ const markup = (title: string, pubDate: string) =>
 			<h1 tw="text-6xl font-bold leading-snug text-white">${title}</h1>
 		</div>
 		<div tw="flex items-center justify-between w-full p-10 border-t border-[#2bbc89] text-xl">
-			<div tw="flex items-center">
+			<div tw="flex items-center gap-2">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					xmlns:xlink="http://www.w3.org/1999/xlink"
