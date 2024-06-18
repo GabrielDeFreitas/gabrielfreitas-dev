@@ -32,6 +32,9 @@ export default {
 				sans: [...fontFamily.sans],
 				serif: [...fontFamily.serif],
 			},
+			backgroundImage: {
+				"background-texture": `url('../assets/background.png')`,
+			},
 			transitionProperty: {
 				height: "height",
 			},
