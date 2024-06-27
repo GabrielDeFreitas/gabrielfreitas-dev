@@ -2,6 +2,7 @@
 title: "Links da semana #2"
 description: "Links que encontrei úteis ou interessantes durante meus estudos e leituras semanais."
 publishDate: "17 Jun 2024"
+updatedDate: 27 Jun 2024
 tags: ["links da semana"]
 ---
 
@@ -16,6 +17,12 @@ Sem mais delongas, aqui estão os links!
 - [axe DevTools - Web Accessibility Testing](https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd) - Extensão do Chrome para testar e corrigir problemas de acessibilidade web.
 
 ## Design
+
+- [Blush](https://blush.design/pt) - Plataforma que oferece uma vasta coleção de ilustrações gratuitas e personalizáveis.
+
+- [Storyset](https://storyset.com/) - Ilustrações gratuitas e personalizáveis.
+
+- [ui8](https://ui8.net/ui8/products/sapiens-character-builder) - Ferramenta que permite criar personagens personalizados de forma fácil e intuitiva com uma vasta biblioteca de elementos editáveis.
 
 - [UI Colors](https://uicolors.app/create) - Ferramenta online que gera e ajusta paletas de cores especificamente para tailwind. Você pode criar escalas de cores personalizadas inserindo códigos hexadecimais ou ajustando valores HSL.
 
