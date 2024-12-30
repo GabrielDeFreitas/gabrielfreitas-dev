@@ -21,7 +21,7 @@
 		"rehype-external-links": "^3.0.0",
 		"satori": "0.12.0",
 		"satori-html": "^0.3.2",
-		"sharp": "^0.33.4",
+		"sharp": "^0.33.5",
 		"@astrojs/check": "^0.9.3",
 		"typescript": "^5.7.2"
 	},
